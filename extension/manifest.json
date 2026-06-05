@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Video Grabber",
+  "version": "1.0.0",
+  "description": "一键下载当前页面视频到 ~/Downloads，基于本地 yt-dlp",
+  "permissions": ["activeTab", "notifications"],
+  "host_permissions": ["http://127.0.0.1:7789/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Video Grabber — 下载当前页面视频",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
