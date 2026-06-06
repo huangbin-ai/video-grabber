@@ -78,10 +78,6 @@ Chrome 扩展在 `chrome://extensions/` 手动移除。
 - 拒绝带 `Origin` 头的请求，防止网页恶意触发下载
 - URL 必须是 `http(s)` 协议
 
-## 致谢
-
-架构参考 [xiaoer-videolab](https://github.com/Jane-xiaoer/xiaoer-videolab)，底层基于 [yt-dlp](https://github.com/yt-dlp/yt-dlp)。
-
 ## License
 
 MIT
