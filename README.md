@@ -78,6 +78,10 @@ Chrome 扩展在 `chrome://extensions/` 手动移除。
 - 拒绝带 `Origin` 头的请求，防止网页恶意触发下载
 - URL 必须是 `http(s)` 协议
 
+## 底层依赖
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) — 视频下载引擎
+
 ## License
 
 MIT
